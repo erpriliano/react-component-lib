@@ -1,0 +1,16 @@
+name: Workflow Actions
+on:
+  push:
+
+jobs:
+  check-linter:
+    name: Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: npm install
+        shell: bash
+        run: npm install
+      
+      - name: npm lint
+        shell: bash
+        run: npm run lint:fix

@@ -1,0 +1,15 @@
+{
+  "name": "react-component-lib",
+  "version": "1.0.0",
+  "description": "An experiment project to build and publish a react component as a library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-PERSONAL:erpriliano/react-component-lib.git"
+  },
+  "author": "Erpriliano Abbas",
+  "license": "MIT"
+}

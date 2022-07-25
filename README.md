@@ -16,7 +16,7 @@ To add the library to your react-app, simply run the following `npm i io-react-c
 
 ### Upcoming plan
 - [ ] Add styling for UI component
-- [X] Add linter configuration in github pipeline
+- [X] ~~Add linter configuration in github pipeline~~
 - [ ] Add automatic versioning for the package
 - [ ] Fix fatal error on lint check
 - [ ] Automated release to npm when merge to master branch

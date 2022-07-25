@@ -2,7 +2,8 @@ name: Workflow Actions
 on:
   push:
   pull_request:
-    - master
+    branches:
+      - master
 
 jobs:
   check-linter:

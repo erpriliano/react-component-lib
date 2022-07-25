@@ -1,3 +1,4 @@
 *.css
 *.svg
-dist
+dist/
+node_modules/

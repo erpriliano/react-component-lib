@@ -13,7 +13,8 @@
             "jsx": true
         },
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig.json"
     },
     "plugins": [
         "react",
@@ -31,6 +32,21 @@
         "import/no-extraneous-dependencies": "off"
     },
     "settings": {
-        "import/resolver": { "typescript": {} }
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".ts",
+                    ".tsx",
+                    ".js"
+                ]
+            }
+        }
+    },
+    "ignorePatterns": [
+        "node_modules/**",
+        "dist/**"
+    ],
+    "globals": {
+        "spyOn": "readonly"
     }
 }
